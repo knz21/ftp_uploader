@@ -1,0 +1,23 @@
+{
+  "name": "ftp_uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knz21/ftp_uploader.git"
+  },
+  "author": "knz21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knz21/ftp_uploader/issues"
+  },
+  "homepage": "https://github.com/knz21/ftp_uploader#readme",
+  "dependencies": {
+    "ftp": "^0.3.10"
+  }
+}
