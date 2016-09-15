@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/knz21/ftp_uploader#readme",
   "dependencies": {
+    "formidable": "^1.0.17",
     "ftp": "^0.3.10"
   }
 }
