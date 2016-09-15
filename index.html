@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>uploader</title>
+    <link rel="stylesheet" type="text/css" href="uploader.css">
+</head>
+<body>
+<div id="uploader" class="invisible">
+    <div id="buttons">
+        <label class="button button_enabled" for="file">
+            select
+            <input id="file" type="file" name="upload">
+        </label>
+        <a id="upload" class="button button_disabled" href="javascript:void(0)">upload!!!</a>
+    </div>
+    <div id="file_detail"></div>
+    <ul id="ftp_list"></ul>
+</div>
+<div id="pass_form" class="invisible">
+    <input id="pass" type="text"/>
+    <a id="submit" class="button button_enabled" href="javascript:void(0)">submit</a>
+</div>
+<div id="loading" class="invisible">
+    <div class="loader"></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="uploader.js" type="text/javascript"></script>
+</body>
+</html>
