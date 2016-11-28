@@ -23,6 +23,7 @@ exports.load = function (callback) {
             if (err) throw err;
             c.list(function (err, list) {
                 callback(list);
+                c.end();
             });
         });
     });
